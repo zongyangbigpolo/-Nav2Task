@@ -1,0 +1,29 @@
+{
+  "result": "SUCCEEDED",
+  "initial_xy": [
+    -2.0,
+    -0.5
+  ],
+  "goal_xy": [
+    -0.5,
+    -0.5
+  ],
+  "final_map_xy": [
+    -0.6903193283619664,
+    -0.5555815633817841
+  ],
+  "position_error_m": 0.19826940494214754,
+  "yaw_error_rad": 0.06850077628753412,
+  "odom_displacement_m": 1.3231766553902817,
+  "odom_travel_m": 1.3270518666046291,
+  "planned_poses": 58,
+  "wall_seconds": 4.596439960999987,
+  "messages_received": {
+    "clock": 1833,
+    "scan": 37,
+    "odom": 162,
+    "plan": 6,
+    "moving_cmd": 93
+  },
+  "valid_laser_scan": true
+}

@@ -1,0 +1,42 @@
+[INFO] [1793267201.540051717] [first_demo_verifier]: Publishing Initial Pose
+[INFO] [1793267203.548553176] [first_demo_verifier]: Setting initial pose
+[INFO] [1793267203.548897093] [first_demo_verifier]: Publishing Initial Pose
+[INFO] [1793267203.549286218] [first_demo_verifier]: Waiting for amcl_pose to be received
+[INFO] [1793267203.549628218] [first_demo_verifier]: Setting initial pose
+[INFO] [1793267203.549837051] [first_demo_verifier]: Publishing Initial Pose
+[INFO] [1793267203.550081593] [first_demo_verifier]: Waiting for amcl_pose to be received
+[INFO] [1793267203.550278718] [first_demo_verifier]: Setting initial pose
+[INFO] [1793267203.550462468] [first_demo_verifier]: Publishing Initial Pose
+[INFO] [1793267203.550680593] [first_demo_verifier]: Waiting for amcl_pose to be received
+[INFO] [1793267207.639357470] [first_demo_verifier]: Nav2 is ready for use!
+[INFO] [1793267207.640174428] [first_demo_verifier]: Getting path...
+[INFO] [1793267207.645017886] [first_demo_verifier]: Navigating to goal: -0.5 -0.5...
+{
+  "result": "SUCCEEDED",
+  "initial_xy": [
+    -2.0,
+    -0.5
+  ],
+  "goal_xy": [
+    -0.5,
+    -0.5
+  ],
+  "final_map_xy": [
+    -0.6694446904122866,
+    -0.5729259267808835
+  ],
+  "position_error_m": 0.18447139048038433,
+  "yaw_error_rad": 0.033676685796348624,
+  "odom_displacement_m": 1.3357264279211147,
+  "odom_travel_m": 1.3399446623926041,
+  "planned_poses": 58,
+  "wall_seconds": 4.55268029399997,
+  "messages_received": {
+    "clock": 1908,
+    "scan": 41,
+    "odom": 170,
+    "plan": 6,
+    "moving_cmd": 92
+  },
+  "valid_laser_scan": true
+}

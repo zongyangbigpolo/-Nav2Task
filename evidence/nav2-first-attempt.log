@@ -1,0 +1,48 @@
+[INFO] [1793267138.268724215] [first_demo_verifier]: Publishing Initial Pose
+[INFO] [1793267140.361411841] [first_demo_verifier]: Setting initial pose
+[INFO] [1793267140.361756966] [first_demo_verifier]: Publishing Initial Pose
+[INFO] [1793267140.362175758] [first_demo_verifier]: Waiting for amcl_pose to be received
+[INFO] [1793267140.362561091] [first_demo_verifier]: Setting initial pose
+[INFO] [1793267140.362763924] [first_demo_verifier]: Publishing Initial Pose
+[INFO] [1793267140.362973549] [first_demo_verifier]: Waiting for amcl_pose to be received
+[INFO] [1793267140.363164633] [first_demo_verifier]: Setting initial pose
+[INFO] [1793267140.363339299] [first_demo_verifier]: Publishing Initial Pose
+[INFO] [1793267140.363524383] [first_demo_verifier]: Waiting for amcl_pose to be received
+[INFO] [1793267144.371635801] [first_demo_verifier]: Nav2 is ready for use!
+[INFO] [1793267144.373049968] [first_demo_verifier]: Getting path...
+[INFO] [1793267144.379655718] [first_demo_verifier]: Navigating to goal: -0.5 -0.5...
+{
+  "result": "SUCCEEDED",
+  "initial_xy": [
+    -2.0,
+    -0.5
+  ],
+  "goal_xy": [
+    -0.5,
+    -0.5
+  ],
+  "final_map_xy": [
+    -0.7411431441587992,
+    -0.5812409797095297
+  ],
+  "position_error_m": 0.25446043456489587,
+  "yaw_error_rad": 0.038747541554802464,
+  "odom_displacement_m": 1.2779156085528012,
+  "odom_travel_m": 1.2815344550375967,
+  "planned_poses": 58,
+  "wall_seconds": 4.549708334999991,
+  "messages_received": {
+    "clock": 1572,
+    "scan": 32,
+    "odom": 138,
+    "plan": 6,
+    "moving_cmd": 89
+  },
+  "valid_laser_scan": true
+}
+Traceback (most recent call last):
+  File "/opt/smoke_test.py", line 165, in <module>
+    main()
+  File "/opt/smoke_test.py", line 153, in main
+    raise RuntimeError('Action succeeded but independent motion/tolerance checks failed')
+RuntimeError: Action succeeded but independent motion/tolerance checks failed
