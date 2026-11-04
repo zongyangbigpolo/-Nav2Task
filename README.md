@@ -4,6 +4,16 @@
 实验于 **2026-10-29** 在 Apple Silicon Mac 上完成，采用 Ubuntu ARM64 容器、
 ROS 2 Jazzy、Gazebo Harmonic 和 TurtleBot3，实现已知地图中的定位与目标点导航。
 
+## 第二阶段：实体语音导航小车
+
+[查看五阶段实体实践设计](hardware-practice/README.md)
+
+方案采用 TurtleBot3 Burger 成套平台，按硬件装配、驱动与安全、真实导航、
+离线语音、大模型 API 与整机交付五个 Phase 推进。包含采购核对、接线边界、
+运行步骤、待实现接口、逐阶段验收和 GitHub 参考依据。
+实体设计独立保存在 `hardware-practice/`，不与第一阶段仿真或后续 `SW-*`
+代码任务编号混用；目前是设计文档，尚未采购或完成实体实验。
+
 ## 实验报告
 
 [阅读完整实验报告](doc/nav2_macos_first_run_zh.md)
